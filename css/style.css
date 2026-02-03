@@ -66,3 +66,25 @@ button:focus-visible {
   margin: 1.5rem auto 0;
   color: #24102e;
 }
+
+.joke-card {
+  min-height: 5rem;
+  margin-top: 1.5rem;
+}
+
+.joke-question,
+.joke-answer {
+  margin: 0.3rem auto;
+  max-width: 32rem;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.joke-question {
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+.joke-answer {
+  color: #24102e;
+}
