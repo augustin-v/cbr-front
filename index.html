@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carambar & co</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <h1>Carambar & co</h1>
+      <p class="subtitle">Un smile garanti en quelques secondes.</p>
+      <button id="joke-btn" type="button">Afficher une blague</button>
+      <section id="joke-card" class="joke-card" aria-live="polite">
+        <p class="joke-question" id="joke-question"></p>
+        <p class="joke-answer" id="joke-answer"></p>
+      </section>
+    </main>
+    <script>
+      window.CBR_API_URL = 'https://ec2-35-158-35-119.eu-central-1.compute.amazonaws.com';
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
